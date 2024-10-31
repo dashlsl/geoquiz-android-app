@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+
+    //Questions
+    <string name="question_id_01">The Eiffel Tower is located in Berlin, Germany.</string> //The Eiffel Tower is located in Paris, France.
+    <string name="question_id_02">The Arctic Ocean is the smallest ocean in the world.</string>
+    <string name="question_id_03">Antarctica is the largest desert in the world.</string>
+    <string name="question_id_04">Mount Everest is located in the Andes mountain range.</string> //Mount Everest is located in the Himalayas, not the Andes.
+    <string name="question_id_05">The Great Wall of China was built during the Ming Dynasty.</string>
+    <string name="question_id_06">Mount Vesuvius is a volcano located in Italy.</string>
+    <string name="question_id_07">Brazil is the largest country in South America.</string>
+    <string name="question_id_08">The Statue of Liberty was a gift from Italy to the United States.</string> //The Statue of Liberty was a gift from France to the United States.
+    <string name="question_id_09">Tokyo is the capital city of Japan.</string>
+    <string name="question_id_10">Sydney is the capital city of Australia.</string> //Canberra is the capital city of Australia, not Sydney.
+
+    //Buttons
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+    <string name="reset_button">Reset</string>
+    <string name="result_button">Result</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat</string>
+    <string name="return_to_quiz_button">Return to Quiz</string>
+
+    //Toast and Text
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+
+    //Results
+    <string name="results_overview">Results Overview</string>
+    <string name="results_questions">Total Questions Answered</string>
+    <string name="results_score">Total Score</string>
+    <string name="results_cheats">Total Cheat Attempts</string>
+    <string name="results_elapsed_time">Elapsed Time</string>
+
+</resources>

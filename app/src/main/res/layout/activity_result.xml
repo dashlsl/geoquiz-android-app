@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/results_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/results_overview"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_pastel_green" />
+
+    <TextView
+        android:id="@+id/total_questions_answered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/results_questions" />
+
+    <TextView
+        android:id="@+id/total_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/results_score" />
+
+    <TextView
+        android:id="@+id/total_cheat_attempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/results_cheats" />
+
+    <TextView
+        android:id="@+id/elapsed_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/results_elapsed_time" />
+
+    <Button
+        android:id="@+id/return_to_quiz_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/return_to_quiz_button" />
+
+</LinearLayout>
